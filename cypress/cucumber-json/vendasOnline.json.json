@@ -1,0 +1,342 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Vendas Online do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "vendasOnline.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura;01---validar-recuperar-senha-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar Recuperar Senha sem Preencher nenhum Campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "seleciono o valor Todos no campo Selecionar Terminal",
+            "result": {
+              "status": "passed",
+              "duration": 15264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 2439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "sistema exibe no campo Periodo a data corrente",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "faço logout do sistema",
+            "result": {
+              "status": "passed",
+              "duration": 1638000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura;02---validar-botao-pesquisar-desabilitado-quando-periodo-estiver-vazio",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "02 - Validar Botao Pesquisar Desabilitado quando Periodo estiver vazio",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 6418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "o botao Pesquisar se encontra desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "faço logout do sistema",
+            "result": {
+              "status": "passed",
+              "duration": 490000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura;03---validar-pesquisa-de-periodo-anterior-a-data-corrente",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "03 - Validar pesquisa de Periodo anterior a data Corrente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 1873000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Preencher o campo Periodo com os valores 23/08/2022 e 23/08/2022",
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 2341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Sistema exibe na Grid de Resultado o valor 23/08/2022 na coluna Data Venda",
+            "result": {
+              "status": "passed",
+              "duration": 1239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "faço logout do sistema",
+            "result": {
+              "status": "passed",
+              "duration": 855000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura;04---validar-pesquisa-de-periodo-incorreto-ou-sem-resultado",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "04 - Validar pesquisa de Periodo incorreto ou sem Resultado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 6443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Preencher o campo Periodo com os valores 11/11/1111 e 99/99/9999",
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Sistema exibe a mensagem Nenhuma venda foi encontrada!",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "faço logout do sistema",
+            "result": {
+              "status": "passed",
+              "duration": 950000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-vendas-online-do-portal-portal-credimoura;05---validar-valor-'todos'-selecionado-como-default-no-campo-terminal",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "05 - Validar Valor 'Todos' selecionado como Default no campo Terminal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Sistema exibe o texto Todos como valor selecionado por Default",
+            "result": {
+              "status": "passed",
+              "duration": 2425000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de de Login do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;01---validar-login-do-portal-portal-credimoura-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar Login do portal Portal CREDIMOURA sem Preencher nenhum Campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 4288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "sistema exibe uma tela com mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;02---validar-login-do-portal-portal-credimoura-sem-preencher-o-campo-senha",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "02 - Validar Login do portal Portal CREDIMOURA sem Preencher o campo Senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1534000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "preencho o campo Senha com o valor 123456",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "sistema exibe uma tela com mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;03---validar-login-do-portal-portal-credimoura-sem-preencher-o-campo-cnpj",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "03 - Validar Login do portal Portal CREDIMOURA sem Preencher o campo CNPJ",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "preencho o campo CNPJ com o valor 31066144000174",
+            "result": {
+              "status": "passed",
+              "duration": 508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "sistema exibe uma tela com mensagem de erro",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;04---validar-login-sem-preencher-o-campo-senha",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "04 - Validar Login sem preencher o campo Senha",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "preencho o campo CNPJ com o valor 31066144000174",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "clico no Botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "sistema exibe uma mensagem de erro abaixo do campo Senha",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;05---validar-login-sem-preencher-o-campo-cnpj",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "05 - Validar Login sem preencher o campo CNPJ",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "preencho o campo Senha com o valor 123456",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "clico no Botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "sistema exibe uma mensagem de erro abaixo do campo CNPJ",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;06---validar-login-do-portal-portal-credimoura-preenchendo-o-campo-cnpj-com-dados-invalidos",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "06 - Validar Login do portal Portal CREDIMOURA preenchendo o campo CNPJ com dados invalidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "preencho o campo CNPJ com o valor AAAAAAAAAA",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "preencho o campo Senha com o valor 123456",
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "sistema exibe a mensagem 'O campo documento deve ser preenchido'",
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;07---validar-login-do-portal-portal-credimoura-preenchendo-o-campo-senha-com-dados-invalidos",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "07 - Validar Login do portal Portal CREDIMOURA preenchendo o campo SENHA com dados invalidos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "preencho o campo CNPJ com o valor 31066144000174",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "preencho o campo Senha com o valor 12345678",
+            "result": {
+              "status": "passed",
+              "duration": 377000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "cliclo no botao Entrar",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "sistema exibe uma tela com a mensagem de Dados invalidos",
+            "result": {
+              "status": "passed",
+              "duration": 626000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;08---validar-solicitação-de-contato-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "08 - Validar solicitação de contato sem preencher nenhum campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "clico no botão Solicitar um contato agora",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "confirmo o envio da solicitação de contato",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "sistema exibe mensagem de obrigatóriedade para os campos \"Nome\" e \"Telefone\"",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-de-login-do-portal-portal-credimoura;09---validar-solicitação-de-contato-sem-preencher-o-campo-nome",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "09 - Validar solicitação de contato sem preencher o campo Nome",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "clico no botão Solicitar um contato agora",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "preencho o campo \"Telefone\" com o valor \"3456891023\"",
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "confirmo o envio da solicitação de contato",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "sistema exibe mensagem de obrigatóriedade no campo \"Nome\"",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

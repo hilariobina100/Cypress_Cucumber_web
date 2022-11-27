@@ -1,0 +1,402 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Home do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-home-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "vendasOline.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-home-do-portal-portal-credimoura;01---validar-campo-periodo-com-data-conrrete-como-default",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar campo Periodo com Data Conrrete como Default",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 4282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 3819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no link \"Vendas\"",
+            "result": {
+              "status": "passed",
+              "duration": 2315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "clico no Sublink \"Vendas Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "seleciono o valor Todos no campo Selecionar Terminal",
+            "result": {
+              "status": "passed",
+              "duration": 6461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 1369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "sistema exibe no campo Periodo a data corrente",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-home-do-portal-portal-credimoura;02---validar-botao-pesquisar-desabilitado-quando-periodo-estiver-vazio",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "02 - Validar Botao Pesquisar Desabilitado quando Periodo estiver vazio",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 3673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clico no link \"Vendas\"",
+            "result": {
+              "status": "passed",
+              "duration": 2009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "clico no Sublink \"Vendas Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 20409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "o botao Pesquisar se encontra desabilitado",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-home-do-portal-portal-credimoura;03---validar-pesquisa-de-periodo-anterior-a-data-corrente",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "03 - Validar pesquisa de Periodo anterior a data Corrente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "clico no link \"Vendas\"",
+            "result": {
+              "status": "passed",
+              "duration": 2435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "clico no Sublink \"Vendas Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 20365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Preencher o campo Periodo com os valores 23/08/2022 e 23/08/2022",
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Sistema exibe na Grid de Resultado o valor 23/08/2022 na coluna Data Venda",
+            "result": {
+              "status": "passed",
+              "duration": 1846000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-home-do-portal-portal-credimoura;04---validar-pesquisa-de-periodo-incorreto-ou-sem-resultado",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "04 - Validar pesquisa de Periodo incorreto ou sem Resultado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3036000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "clico no link \"Vendas\"",
+            "result": {
+              "status": "passed",
+              "duration": 2594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "clico no Sublink \"Vendas Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "limpo o campo Periodo",
+            "result": {
+              "status": "passed",
+              "duration": 20401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Preencher o campo Periodo com os valores 11/11/1111 e 99/99/9999",
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "clico no botao Pesquisar",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Sistema exibe a mensagem Nenhuma venda foi encontrada!",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-home-do-portal-portal-credimoura;05---validar-valor-'todos'-selecionado-como-default-no-campo-terminal",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "05 - Validar Valor 'Todos' selecionado como Default no campo Terminal",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "clico no link \"Vendas\"",
+            "result": {
+              "status": "passed",
+              "duration": 1704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "clico no Sublink \"Vendas Online\"",
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Sistema exibe o texto Todos como valor selecionado por Default",
+            "result": {
+              "status": "passed",
+              "duration": 2401000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

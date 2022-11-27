@@ -1,0 +1,682 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Meus Dados/Logista do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "MeusDadosLogista.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;01---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "01 - Validar a Edição do dados do Logista sem preencher nenhum campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 949000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "limpo o campo \"Cep\"",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "limpo o campo \"Logradouro\"",
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "limpo o campo \"Numero\"",
+            "result": {
+              "status": "passed",
+              "duration": 289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "limpo o campo \"Bairro\"",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "limpo o campo \"Estado\"",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "limpo o campo \"Cidade\"",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Sistema exibe as mensagens \"Campos obrigatórios estão vazios!\" e \"Preencha os campos obrigatórios marcados.\"",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;02---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'cep'",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "02 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'CEP'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1576000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "limpo o campo \"Cep\"",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Sistem exibe a mensagem \"CEP é um campo obrigatório.\" para o campo \"Cep\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;03---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'logradouro'",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "03 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'Logradouro'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "limpo o campo \"Logradouro\"",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Sistem exibe a mensagem \"Logradouro é um campo obrigatório.\" para o campo \"Logradouro\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;04---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'nº'",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "04 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'Nº'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "limpo o campo \"Numero\"",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Sistem exibe a mensagem \"Número é um campo obrigatório.\" para o campo \"Numero\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;05---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'bairro'",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "05 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'Bairro'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "limpo o campo \"Bairro\"",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "Sistem exibe a mensagem \"Bairro é um campo obrigatório.\" para o campo \"Bairro\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;06---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'estado'",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "06 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'Estado'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 59,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 835000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 2241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "limpo o campo \"Estado\"",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Sistem exibe a mensagem \"Estado é um campo obrigatório.\" para o campo \"Estado\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/logista-do-portal-portal-credimoura;07---validar-a-edição-do-dados-do-logista-sem-preencher-nenhum-o-campo-'cidade'",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "07 - Validar a Edição do dados do Logista sem preencher nenhum o campo 'Cidade'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 69,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 918000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "clico no botao Editar Logista",
+            "result": {
+              "status": "passed",
+              "duration": 1786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "limpo o campo \"Cidade\"",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "Sistem exibe a mensagem \"Cidade é um campo obrigatório.\" para o campo \"Cidade\" na tela Logista",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

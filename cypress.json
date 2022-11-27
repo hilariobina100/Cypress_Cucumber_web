@@ -1,0 +1,9 @@
+{
+    "viewportWidth": 1500,
+    "viewportHeight": 900,
+    "defaultCommandTimeout": 10000,
+    "testFiles": "**/*.feature",
+    "blockHosts": ["www.googletagmanager.com"],
+    "hideXHR": true
+    
+}

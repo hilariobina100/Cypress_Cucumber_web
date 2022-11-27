@@ -1,0 +1,83 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Rebebimento Extrato Saldo CREDITMOURA do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-rebebimento-extrato-saldo-creditmoura-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "RecebimentoExtratoSaldo.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-rebebimento-extrato-saldo-creditmoura-do-portal-portal-credimoura;04---validar-valor-\"total-liquido\"-com-a-soma-total-da-coluna-\"valor-liquido-cliente\"-da-grid",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "04 - Validar Valor \"Total liquido\" com a soma total da coluna \"Valor Liquido Cliente\" da Grid",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 3123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "clico no link \"Recebimentos\"",
+            "result": {
+              "status": "passed",
+              "duration": 2164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "clico no Sublink \"Extrato de Recebimentos\"",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "clico na aba \"Detalhados\" da tela de Recebimento",
+            "result": {
+              "status": "passed",
+              "duration": 2169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Sistema exibe na Label Total liquido o mesmo valor que a soma da coluna Valor Liquido Cliente da Grid",
+            "result": {
+              "status": "failed",
+              "duration": 20321000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -'1539,00'\n    +'1547,53'\n\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\RecebimentoExtratoSaldo.feature:207:82)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

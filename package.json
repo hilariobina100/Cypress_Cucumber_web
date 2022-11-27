@@ -1,0 +1,33 @@
+{
+  "name": "maisum",
+  "version": "1.0.0",
+  "description": "Automação de Testes Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run",
+    "postcypress:run": "node ./cypress/support/multiple-cucumber-html-reporter.js"
+  },
+  "author": "Hilario Bina",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  },
+  "dependencies": {
+    "cypress-localstorage-commands": "^2.2.1",
+    "jquery": "^3.6.1",
+    "xlsx": "^0.18.5"
+  }
+}

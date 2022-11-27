@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Recuperar Senha do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-recuperar-senha-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "recuperarSenha.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-recuperar-senha-do-portal-portal-credimoura;01---validar-recuperar-senha-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar Recuperar Senha sem Preencher nenhum Campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3765000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "cliclo no Link Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "cliclo no botao Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sistema exibe mensagem de erro abaixo dos campos CNPJ e Email",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-recuperar-senha-do-portal-portal-credimoura;02---validar-recuperar-senha-sem-preencher-campo-email",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "02 - Validar Recuperar Senha sem Preencher Campo Email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "cliclo no Link Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "preencho o campo CNPJ com o valor 12000207000145",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "cliclo no botao Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "sistema exibe mensagem de erro abaixo dos campos Email",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-recuperar-senha-do-portal-portal-credimoura;03---validar-recuperar-senha-sem-preencher-campo-cnpj",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "03 - Validar Recuperar Senha sem Preencher Campo CNPJ",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 1218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "cliclo no Link Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "preencho o campo EMAIL com o valor text@text.com",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "cliclo no botao Recuperar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "sistema exibe mensagem de erro abaixo do campo CNPJ",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

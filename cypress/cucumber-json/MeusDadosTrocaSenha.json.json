@@ -1,0 +1,662 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Meus Dados/Trocar Senha do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "MeusDadosTrocaSenha.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;01---validar-troca-de-senha-sem-preencher-nenhum-campo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar Troca de Senha sem preencher Nenhum Campo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3978000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Sistema exibe a mensagem \"Para continuar, digite sua senha atual.\" para o campo \"Senha Atual\" em Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;02---validar-troca-de-senha-digitando-apenas-o-campo-'senha-atual'",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "02 - Validar Troca de Senha Digitando Apenas o campo 'Senha Atual'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1682000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Sistema exibe a mensagem \"Para continuar, digite sua nova senha.\" para o campo \"Nova Senha\" em Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;03---validar-troca-de-senha-digitando-apenas-os-campos-'senha-atual'-e-'nova-senha'",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "03 - Validar Troca de Senha Digitando Apenas os campos 'Senha Atual' e 'Nova Senha'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40463000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 2035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "digito o valor \"0597310\" para o campo \"Nova Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Sistema exibe a mensagem \"Para continuar, digite sua nova senha novamente em “Confirmar nova senha”.\" para o campo \"Confirmar Senha\" em Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;04---validar-troca-de-senha-digitando-apenas-os-campos-'senha-atual'-e-'confirmar-atual'",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "04 - Validar Troca de Senha Digitando Apenas os campos 'Senha Atual' e 'Confirmar Atual'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3669000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 2140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "digito o valor \"0597310\" para o campo \"Confirmar Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 486000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Sistema exibe a mensagem \"Para continuar, digite sua nova senha.\" para o campo \"Nova Senha\" em Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;05---validar-troca-de-senha-digitando-nos-campos-'senha-atual'-e-'confirmar-atual'-valores-diferentes",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "05 - Validar Troca de Senha Digitando nos campos 'Senha Atual' e 'Confirmar Atual' valores diferentes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 884000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 43362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1664000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "digito o valor \"0202020202\" para o campo \"Nova Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "digito o valor \"0597310\" para o campo \"Confirmar Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Sistema exibe a mensagem \"As senhas digitadas não coincidem. Digite a mesma senha nos dois campos.\" para Senhas Diferentes",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;06---validar-troca-de-senha-com-campo-'nova-senha'-já-utlizada-nos-ultimos-3-meses",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "06 - Validar Troca de Senha com campo 'Nova Senha' já utlizada nos ultimos 3 meses",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1735000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "digito o valor \"123456\" para o campo \"Nova Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "digito o valor \"0597310\" para o campo \"Confirmar Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "clico no botao Fechar na tela de Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 1192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "Sistema exibe a mensagem \"Você usou esta senha anteriormente. Por favor, não utilize suas 3 últimas senhas.\" senha já utlizada",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError\n    + expected - actual\n\n    -'Senha incorreta.'\n    +'Você usou esta senha anteriormente. Por favor, não utilize suas 3 últimas senhas.'\n\n    at MeusDadosTrocaSenhaFuncionaldiade.validarSenhaAtualJaUtilizda (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:858:98)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:1604:49)\n    at Context.resolveAndRunStepDefinition (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:12229:29)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:11550:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados/trocar-senha-do-portal-portal-credimoura;07---validar-troca-de-senha-com-campo-'nova-senha'-com-menos-de-6-caracteres",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "07 - Validar Troca de Senha com campo 'Nova Senha' com menos de 6 caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3925000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 1077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "clico no link Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 40429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "clico no botao Trocar Senha da tela Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1794000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "digito o valor \"123456\" para o campo \"Senha Atual\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "digito o valor \"059\" para o campo \"Nova Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "digito o valor \"0597310\" para o campo \"Confirmar Senha\" na Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "clico no botao Trocar Senha da Tela Troca Senha",
+            "result": {
+              "status": "passed",
+              "duration": 271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "clico no botao Fechar na tela de Trocar Senha",
+            "result": {
+              "status": "passed",
+              "duration": 288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "Sistema exibe a mensagem \"Nova senha não pode ter menos de 6 dígitos.\" para Menos de 6 caracteres",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: expected 'Nova senha não pode ter menos de 6 dígitos.' to equal undefined\n    at MeusDadosTrocaSenhaFuncionaldiade.validarSenhaAtualMenosSeisDigitos (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:850:84)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:1607:49)\n    at Context.resolveAndRunStepDefinition (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:12229:29)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDadosTrocaSenha.feature:11550:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

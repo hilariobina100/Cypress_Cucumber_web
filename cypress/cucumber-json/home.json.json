@@ -1,0 +1,161 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela Home do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-home-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "Home.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-home-do-portal-portal-credimoura;01---validar-campo-\"ultimas-vendas\"-com-data-conrrete-como-default",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar campo \"Ultimas vendas\" com Data Conrrete como Default",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 3048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "sistema exibe no campo Ultimas vendas a data corrente",
+            "result": {
+              "status": "passed",
+              "duration": 728000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-home-do-portal-portal-credimoura;02---validar-campo-\"recebimentos-da-semana\"-com-data-dois-dias-antes-da-data-corrente-e-dois-dias-depois-da-data-conrrente",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "02 - Validar campo \"Recebimentos da Semana\" com Data dois dias antes da Data Corrente e dois dias depois da data Conrrente",
+        "tags": [],
+        "type": "scenario",
+        "steps": []
+      },
+      {
+        "id": "validar-a-tela-home-do-portal-portal-credimoura;04---validar-acesso-a-pagina-\"extrato-credmoura\"-via-link-\"saldo-credmoura\"",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "04 - Validar acesso a pagina \"Extrato CREDMOURA\" via link \"Saldo CREDMOURA\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 37814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 3144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "clico link \"Saldo CREDMOURA\"",
+            "result": {
+              "status": "passed",
+              "duration": 35303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "sistema exibe aba \"Agenda de Créditos\" selecionada na tela Extrato CredMoura",
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-home-do-portal-portal-credimoura;05---validar-acesso-a-pagina-\"extrato-credmoura\"-via-link-\"créditos-a-liberar\"",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "05 - Validar acesso a pagina \"Extrato CREDMOURA\" via link \"Créditos a liberar\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 7579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 3605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "clico link \"Créditos a liberar\"",
+            "result": {
+              "status": "passed",
+              "duration": 35388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "sistema exibe aba \"Extrato Detalhado\" selecionada na tela Extrato CredMoura",
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

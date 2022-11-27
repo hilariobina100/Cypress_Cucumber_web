@@ -1,0 +1,432 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validar a Tela de Meus Dados do portal Portal CREDIMOURA",
+    "line": 1,
+    "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura",
+    "tags": [],
+    "uri": "MeusDados.feature",
+    "elements": [
+      {
+        "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura;01---validar-acesso-a-página-meus-dados",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "01 - Validar Acesso a Página Meus Dados",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "efetuo o login com sucesso com o dados 12000207000145 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2548000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "acesso a pagina Meus Dados",
+            "result": {
+              "status": "failed",
+              "duration": 10146000000,
+              "error_message": "CypressError: Timed out retrying after 10050ms: `cy.click()` failed because this element:\n\n`<span _ngcontent-teo-c114=\"\" aria-haspopup=\"true\" ngbdropdowntoggle=\"\" data-toggle=\"dropdown\" aria-expanded=\"false\" class=\"dropdown-toggle\" style=\"white-space: normal !important; cursor: pointer;\">...</span>`\n\nis being covered by another element:\n\n`<div _ngcontent-teo-c106=\"\" class=\"overlay ng-tns-c106-0 ng-trigger ng-trigger-fadeIn ng-star-inserted\" style=\"background-color: rgba(2, 40, 105, 0.67); z-index: 99999; position: fixed; opacity: 1;\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n    at $Cy.ensureDescendents (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:160645:87)\n    at ensureDescendents (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:147543:8)\n    at ensureDescendentsAndScroll (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:147550:14)\n    at ensureElIsNotCovered (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:147684:5)\n    at runAllChecks (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:147871:52)\n    at retryActionability (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:147894:16)\nFrom previous event:\n    at tryFn (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:165305:61)\n    at whenStable (https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:165344:14)\n    at https://portaldocliente-qa.propig.com.br/__cypress/runner/cypress_runner.js:164831:18\nFrom Your Spec Code:\n    at HomeFuncionalidade.clicarOpcaoMeusDados (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDados.feature:116:46)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDados.feature:1554:34)\n    at Context.resolveAndRunStepDefinition (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDados.feature:12305:29)\n    at Context.eval (https://portaldocliente-qa.propig.com.br/__cypress/tests?p=cypress\\integration\\features\\MeusDados.feature:11626:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Sitema exibe mensagem de Boas Vindas com o nome do Usuário",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura;07---validar-edição-de-contato-sem-enviar-nenhum-campo-preenchido",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "07 - Validar edição de Contato sem enviar nenhum campo Preenchido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "acesso a pagina Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 2483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Clico no botao Editar Contato",
+            "result": {
+              "status": "passed",
+              "duration": 1372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "limpo o campo \"Nome\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "limpo o campo \"E-mail\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "limpo o campo \"Telefone\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 356000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Sistema exibe as mensagens \"Campos obrigatórios estão vazios!\" e \"Preencha os campos obrigatórios marcados.\"",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura;08---validar-edição-de-contato-sem-enviar-campo-'nome'",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "08 - Validar edição de Contato sem enviar campo 'Nome'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "acesso a pagina Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 2182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Clico no botao Editar Contato",
+            "result": {
+              "status": "passed",
+              "duration": 1373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "limpo o campo \"Nome\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Sistema exibe a mensagem \"Nome é um campo obrigatório.\" para o campo \"Nome\"",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura;09---validar-edição-de-contato-sem-enviar-campo-'e-mail'",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "09 - Validar edição de Contato sem enviar campo 'E-mail'",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "acesso a pagina Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 1950000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Clico no botao Editar Contato",
+            "result": {
+              "status": "passed",
+              "duration": 1338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "limpo o campo \"E-mail\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "clico no botão Fechar",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Sistema exibe a mensagem \"Email é um campo obrigatório.\" para o campo \"E-mail\"",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-a-tela-de-meus-dados-do-portal-portal-credimoura;10---validar-edição-de-contato-com-o-campo-'e-mail'-com-valor-invalido",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "10 - Validar edição de Contato com o campo 'E-mail' com valor Invalido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "que acesso a Tela de Login do Portal CREDIMOURA",
+            "result": {
+              "status": "passed",
+              "duration": 2217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "efetuo o login com sucesso com o dados 31066144000174 e 123456",
+            "result": {
+              "status": "passed",
+              "duration": 2466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "acesso a pagina Meus Dados",
+            "result": {
+              "status": "passed",
+              "duration": 2197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Clico no botao Editar Contato",
+            "result": {
+              "status": "passed",
+              "duration": 1091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "limpo o campo \"E-mail\" da tela Contato",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "digito no campo \"E-mail\" o valor \"1111@111.\"",
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "clico em Enviar",
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Sistema exibe a mensagem \"Email inválido.\" para o campo E-mail",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
